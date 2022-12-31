@@ -8,3 +8,15 @@
 # remove_chars("pynative", 4) so output must be tive. Here we need to remove first four characters from a string.
 # remove_chars("pynative", 2) so output must be native. Here we need to remove first two characters from a string.
 # Note: n must be less than the length of the string.
+
+
+string = input('ENTER WORD: ')
+slice_index = int(input("Enter cutting point: "))
+
+
+def remove_chars(sentence, slice_point):
+    new_string = sentence[slice_point:]
+    print(new_string)
+
+
+remove_chars(string, slice_index)
