@@ -12,10 +12,6 @@
 
 string = input('ENTER WORD: ')
 slice_index = int(input("Enter cutting point: "))
-while True:
-    if slice_index > len(string):
-        print('Slice Index cannot be larger than length of string')
-        slice_index
 
 
 def remove_chars(sentence, slice_point):
