@@ -4,8 +4,24 @@
 
 # Given:
 
-# list1 = [10, 20, 25, 30, 35]
-# list2 = [40, 45, 60, 75, 90]
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
 # Expected Output:
 
 # result list: [25, 35, 40, 60, 90]
+
+
+def combinelist(*lists):
+    newlist = []
+    for num in lists[0]:
+        if num % 2 == 0:
+            newlist.append(num)
+
+    for num in lists[1]:
+        if num % 2 != 0:
+            newlist.append(num)
+    # print(newlist)
+    return newlist
+
+
+print(combinelist([10, 40, 15], [33, 47, 89]))
