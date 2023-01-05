@@ -3,3 +3,10 @@
 # For example, If the given int is 7536, the output shall be “6 3 5 7“,
 # with a space separating the digits.
 # This exercise is similar to the palindrome exercise
+
+num = 4697
+
+while num != 0:
+    digit = num % 10
+    num //= 10
+    print(digit, end=' ')
