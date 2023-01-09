@@ -12,3 +12,8 @@
 # 16
 # 18
 # 20
+
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    multiple = num * i
+    print(multiple)
