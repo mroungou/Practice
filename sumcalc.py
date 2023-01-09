@@ -16,3 +16,8 @@ total = 0
 for i in range(num+1):
     total += i
 print(f"Sum is: {total}")
+
+# could also be done using the built-in sum() function
+
+summation = sum(range(1, num + 1))
+print(summation)
