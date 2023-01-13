@@ -10,3 +10,14 @@
 
 # Fibonacci sequence:
 # 0  1  1  2  3  5  8  13  21  34
+num1 = 0
+num2 = 1
+result = num1 + num2
+counter = 2
+print(num1, num2, end=' ')
+while counter != 10:
+    print(result, end=" ")
+    num1 = num2
+    num2 = result
+    result = num1 + num2
+    counter += 1
