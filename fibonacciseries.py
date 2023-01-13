@@ -13,10 +13,12 @@
 num1 = 0
 num2 = 1
 result = num1 + num2
-counter = 2
+counter = 2  # counter set intially to 2 because we want the first 10 numbers. 1 and 0 are given in the beginning
+print("Fibonacci sequence: ")
 print(num1, num2, end=' ')
 while counter != 10:
     print(result, end=" ")
+    # updating the values
     num1 = num2
     num2 = result
     result = num1 + num2
