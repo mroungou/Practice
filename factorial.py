@@ -11,3 +11,10 @@
 
 
 # 120
+num = int(input('Type a number: '))
+result = 1
+print(f'{num}!')
+while num != 0:
+    result *= num
+    num -= 1
+print(f"The result is: {result}")
