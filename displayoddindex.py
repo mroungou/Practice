@@ -13,6 +13,7 @@ for i in range(len(my_list)):
         print(my_list[i], end=" ")
 
 # another option
+# start from index 1 and with step 2(1,3,5,7etc)
 for i in my_list[1::2]:
     print(i, end=' ')
 
