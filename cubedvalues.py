@@ -14,3 +14,12 @@
 # Current Number is : 4  and the cube is 64
 # Current Number is : 5  and the cube is 125
 # Current Number is : 6  and the cube is 216
+
+num = int(input("Enter a number: "))
+for i in range(num + 1):
+    if i == 0:
+        # the cubed value of 0 is 0 so skip it
+        continue
+    else:
+        cubed_value = i ** 3
+        print(f'Current Number is: {i} and the cube is {cubed_value}')
